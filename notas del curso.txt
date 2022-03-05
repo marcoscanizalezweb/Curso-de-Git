@@ -1,0 +1,7 @@
+git checkout 1c0c54223a7325f65fd0c77891333b852f9c9fcf hola.txt
+
+* Mi traerá a mi espacio de trabajo, a mi disco duro el archivo hola.txt en esa versión */
+
+git checkout master hola.txt
+
+/* Puedo decirle que me devuelva el archivo en la versión más reciente, que es la de la rama master*/
