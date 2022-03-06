@@ -7,16 +7,37 @@
 		*{
 			font-family:"Arial";
 			padding:0;
+			margin:0;
 		}
-		h1, p{
+		h1, h2, p{
 			color:#4e4e4e;
+			margin-bottom:22px;
 		}
 		div.articulo{
+			position:relative;
 			width:70%;
 			margin:20px auto 0px auto;
 			padding:20px;
+			padding-top:90px;
 			box-sizing:border-box;
 			box-shadow:0.2px 0.2px 3px #4e4e4e;
+		}
+		div.articulo div.cabecera{
+			position:absolute;
+			width:100%;
+			background-color:blue;
+			padding:12px;
+			box-sizing:border-box;
+			left:0;
+			top:0;
+		}
+		div.articulo div.cabecera h2{
+			font-weight:bolder;
+			color:white;
+			margin:0 0 10px 0;
+		}
+		span{
+			color:white;
 		}
 	</style>
 </head>
@@ -24,8 +45,8 @@
 
 <div class="articulo">
 
-	<div class="cabezera">
-		<h2>Cabezera de la página</h2>
+	<div class="cabecera">
+		<h2>Frangely y Marcos</h2><span>Tu blog de confianza</span>
 	</div>
 
 	<h1>Welcome to my web</h1>
